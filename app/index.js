@@ -21,7 +21,7 @@ module.exports = generators.Base.extend({
 				remote.bulkDirectory('.', '' + answers.name);
 				dir = answers.name;
 				done();
-			});
+			}, true);
 		}.bind(this));
 	},
 
