@@ -1,6 +1,6 @@
 {
   "name": "generator-basos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator for Basos",
   "repository": "losbeekos/generator-basos",
   "main": "app/index.js",

@@ -17,7 +17,7 @@ module.exports = generators.Base.extend({
 		}).then(function (answers) {
 			console.log(chalk.bold.yellow('\n\nPulling Basos from Github.\n\n'));
 
-			this.remote('losbeekos', 'basos', function(err, remote) {
+			this.remote('losbeekos', 'basos', 'master', function(err, remote) {
 				remote.bulkDirectory('.', '' + answers.name);
 				dir = answers.name;
 				done();
